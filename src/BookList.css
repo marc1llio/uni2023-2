@@ -1,0 +1,72 @@
+.page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-list li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .book-list li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .author-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .author-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .details-link {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+    transition: color 0.2s;
+  }
+  
+  .details-link:hover {
+    color: #0056b3;
+  }  
